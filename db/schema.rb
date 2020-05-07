@@ -11,12 +11,6 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 1) do
-
-  create_table "landmarks", force: :cascade do |t|
-    t.string  "name"
-    t.integer "figure_id"
-    t.integer "year_completed"
-  end
+ActiveRecord::Schema.define(version: 0) do
 
 end
